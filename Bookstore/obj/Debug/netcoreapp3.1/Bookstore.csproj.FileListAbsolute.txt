@@ -101,3 +101,5 @@
 /Users/matthewmazankowski/Desktop/Mission/Bookstore/Bookstore/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Routed.razor.g.cs
 /Users/matthewmazankowski/Desktop/Mission/Bookstore/Bookstore/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/_Imports.razor.g.cs
 /Users/matthewmazankowski/Desktop/Mission/Bookstore/Bookstore/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Index.cshtml.g.cs
+/Users/matthewmazankowski/Desktop/Mission/Bookstore/Bookstore/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Admin/OrderTable.razor.g.cs
+/Users/matthewmazankowski/Desktop/Mission/Bookstore/Bookstore/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/OrderTable.razor.g.cs

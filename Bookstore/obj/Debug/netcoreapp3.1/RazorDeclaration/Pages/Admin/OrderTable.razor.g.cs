@@ -53,8 +53,7 @@ using Bookstore.Models;
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/admin/orders")]
-    public partial class Orders : OwningComponentBase<IOrderRepository>
+    public partial class OrderTable : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -62,36 +61,21 @@ using Bookstore.Models;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 10 "/Users/matthewmazankowski/Desktop/Mission/Bookstore/Bookstore/Pages/Admin/Orders.razor"
+#line 44 "/Users/matthewmazankowski/Desktop/Mission/Bookstore/Bookstore/Pages/Admin/OrderTable.razor"
        
 
-    public IOrderRepository repo => Service;
+    [Parameter]
+    public string TableTitle { get; set; } = "Orders";
 
-    public IEnumerable<Order> AllOrders { get; set; }
-    public IEnumerable<Order> UncollectedOrders { get; set; }
-    public IEnumerable<Order> CollectedOrders { get; set; }
+    [Parameter]
+    public IEnumerable<Order> Orders { get; set; }
 
-    protected async override Task OnInitializedAsync()
-    {
-        await UpdateData();
-    }
+    [Parameter]
+    public string ButtonLabel { get; set; } = "Collected";
 
-    public async Task UpdateData()
-    {
-        AllOrders = await repo.Orders.ToListAsync();
-        UncollectedOrders = AllOrders.Where(x => !x.OrderReceived);
-        CollectedOrders = AllOrders.Where(x => x.OrderReceived);
-    }
+    [Parameter]
+    public EventCallback<int> OrderSelected { get; set; }
 
-    public void CollectOrder(int id) => UpdateOrder(id, true);
-    public void ResetOrder(int id) => UpdateOrder(id, false); 
-
-    private void UpdateOrder (int id, bool ordered)
-    {
-        Order o = repo.Orders.FirstOrDefault(x => x.OrderId == id);
-        o.OrderReceived = ordered;
-        repo.SaveOrder(o); 
-    }
 
 #line default
 #line hidden
