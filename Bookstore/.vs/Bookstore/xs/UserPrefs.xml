@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{071A27CC-5BFD-4922-9B2F-6C20BC8044E7}|Default">
   <MonoDevelop.Ide.ItemProperties.Bookstore PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Pages/Admin/Details.razor">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Pages/Admin/Editor.razor">
     <Files>
-      <File FileName="Pages/Admin/Details.razor" Line="13" Column="5" />
+      <File FileName="Pages/Admin/Details.razor" Line="42" Column="63" />
+      <File FileName="Pages/Admin/Editor.razor" Line="1" Column="11" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,7 +13,7 @@
               <Node name="Models" expanded="True" />
               <Node name="Pages" expanded="True">
                 <Node name="Admin" expanded="True">
-                  <Node name="Details.razor" selected="True" />
+                  <Node name="Editor.razor" selected="True" />
                 </Node>
               </Node>
             </Node>
