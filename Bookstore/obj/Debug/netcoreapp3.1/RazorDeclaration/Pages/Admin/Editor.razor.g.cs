@@ -63,7 +63,7 @@ using Bookstore.Models;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 11 "/Users/matthewmazankowski/Desktop/Mission/Bookstore/Bookstore/Pages/Admin/Editor.razor"
+#line 74 "/Users/matthewmazankowski/Desktop/Mission/Bookstore/Bookstore/Pages/Admin/Editor.razor"
        
 
     [Parameter]
@@ -71,7 +71,37 @@ using Bookstore.Models;
 
     public string ThemeColor => Id == 0 ? "primary" : "warning";
 
-    public string TitleText => Id == 0 ? "Create" : "Edit"; 
+    public string TitleText => Id == 0 ? "Create" : "Edit";
+
+    public Book b { get; set; } = new Book();
+
+    public IBookstoreRepository repo => Service;
+
+    protected override void OnParametersSet()
+    {
+        if (Id != 0) //Existing book
+        {
+            b = repo.Books.FirstOrDefault(x => x.BookId == Id);
+        }
+    }
+
+    public void SaveBook()
+    {
+        if (Id == 0) //New book
+        {
+            repo.CreateBook(b);
+        }
+        else
+        {
+            repo.SaveBook(b);
+        }
+
+        NavManager.NavigateTo("/admin/books");
+    }
+
+    [Inject]
+    public NavigationManager NavManager { get; set; }
+
 
 
 #line default

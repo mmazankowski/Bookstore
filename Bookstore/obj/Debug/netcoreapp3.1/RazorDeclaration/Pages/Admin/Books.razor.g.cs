@@ -63,7 +63,7 @@ using Bookstore.Models;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 53 "/Users/matthewmazankowski/Desktop/Mission/Bookstore/Bookstore/Pages/Admin/Books.razor"
+#line 55 "/Users/matthewmazankowski/Desktop/Mission/Bookstore/Bookstore/Pages/Admin/Books.razor"
        
 
     public IBookstoreRepository repo => Service;
