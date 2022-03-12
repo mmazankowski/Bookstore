@@ -30,6 +30,7 @@
     <None Remove="Microsoft.EntityFrameworkCore" />
     <None Remove="FontAwesome" />
     <None Remove="Bower" />
+    <None Remove="Pages\Admin\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Components\" />
@@ -39,5 +40,6 @@
     <Folder Include="Views\Shared\Components\" />
     <Folder Include="Views\Shared\Components\CartSummary\" />
     <Folder Include="Views\Shared\Components\Types\" />
+    <Folder Include="Pages\Admin\" />
   </ItemGroup>
 </Project>

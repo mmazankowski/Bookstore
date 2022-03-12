@@ -87,3 +87,17 @@
 /Users/matthewmazankowski/Desktop/Mission/Bookstore/Bookstore/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Components/Types/Default.cshtml.g.cs
 /Users/matthewmazankowski/Desktop/Mission/Bookstore/Bookstore/obj/Debug/netcoreapp3.1/Razor/Views/Order/Checkout.cshtml.g.cs
 /Users/matthewmazankowski/Desktop/Mission/Bookstore/Bookstore/obj/Debug/netcoreapp3.1/Razor/Pages/_ShopLayout.cshtml.g.cs
+/Users/matthewmazankowski/Desktop/Mission/Bookstore/Bookstore/obj/Debug/netcoreapp3.1/Bookstore.RazorComponent.input.cache
+/Users/matthewmazankowski/Desktop/Mission/Bookstore/Bookstore/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Admin/AdminLayout.razor.g.cs
+/Users/matthewmazankowski/Desktop/Mission/Bookstore/Bookstore/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Admin/Books.razor.g.cs
+/Users/matthewmazankowski/Desktop/Mission/Bookstore/Bookstore/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Admin/Orders.razor.g.cs
+/Users/matthewmazankowski/Desktop/Mission/Bookstore/Bookstore/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Admin/Routed.razor.g.cs
+/Users/matthewmazankowski/Desktop/Mission/Bookstore/Bookstore/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Admin/_Imports.razor.g.cs
+/Users/matthewmazankowski/Desktop/Mission/Bookstore/Bookstore/obj/Debug/netcoreapp3.1/Bookstore.RazorComponent.output.cache
+/Users/matthewmazankowski/Desktop/Mission/Bookstore/Bookstore/obj/Debug/netcoreapp3.1/RazorDeclaration/Bookstore.dll
+/Users/matthewmazankowski/Desktop/Mission/Bookstore/Bookstore/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/AdminLayout.razor.g.cs
+/Users/matthewmazankowski/Desktop/Mission/Bookstore/Bookstore/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Books.razor.g.cs
+/Users/matthewmazankowski/Desktop/Mission/Bookstore/Bookstore/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Orders.razor.g.cs
+/Users/matthewmazankowski/Desktop/Mission/Bookstore/Bookstore/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Routed.razor.g.cs
+/Users/matthewmazankowski/Desktop/Mission/Bookstore/Bookstore/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/_Imports.razor.g.cs
+/Users/matthewmazankowski/Desktop/Mission/Bookstore/Bookstore/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Index.cshtml.g.cs
