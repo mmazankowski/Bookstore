@@ -1,8 +1,18 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿
+@{
+    ViewData["Title"] = "Books";
+
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+@model BooksViewModel
+
+<div class="text-left">
+    @foreach (Book b in Model.Books)
+    {
+        <partial name="BookSummary" model="b" />
+    }
 </div>
+
+<div page-blah="@Model.PageInfo" page-action="Index" page-class="btn"
+     page-class-normal="btn-outline-dark" page-class-selected="btn-primary"
+     page-class-enabled="true" class="btn-group pull-right m-1"></div>

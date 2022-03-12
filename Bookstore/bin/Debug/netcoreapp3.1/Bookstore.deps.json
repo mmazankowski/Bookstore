@@ -31,6 +31,9 @@
     ".NETCoreApp,Version=v3.1": {
       "Bookstore/1.0.0": {
         "dependencies": {
+          "Bower": "1.3.11",
+          "FontAwesome": "4.6.3",
+          "Microsoft.EntityFrameworkCore": "3.1.22",
           "Microsoft.EntityFrameworkCore.Design": "3.1.22",
           "Microsoft.EntityFrameworkCore.Sqlite": "3.1.22",
           "Microsoft.EntityFrameworkCore.Tools": "3.1.22",
@@ -310,6 +313,13 @@
           "Bookstore.dll": {}
         }
       },
+      "Bower/1.3.11": {
+        "dependencies": {
+          "NoGit": "0.0.8",
+          "Node.js": "0.10.28"
+        }
+      },
+      "FontAwesome/4.6.3": {},
       "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
         "runtime": {
           "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
@@ -611,6 +621,12 @@
         },
         "compile": {
           "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll": {}
+        }
+      },
+      "Node.js/0.10.28": {},
+      "NoGit/0.0.8": {
+        "dependencies": {
+          "Node.js": "0.10.28"
         }
       },
       "SQLitePCLRaw.bundle_e_sqlite3/2.0.4": {
@@ -2386,6 +2402,20 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Bower/1.3.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JNo9rMr25g1ZA1hv8aTzkDTiglq3FGTPoNOqNTGrwckYqJ9/DulmlndUduhPZWJXnIlYxo0krbwgwBtrCZvNqQ==",
+      "path": "bower/1.3.11",
+      "hashPath": "bower.1.3.11.nupkg.sha512"
+    },
+    "FontAwesome/4.6.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uskdHHiy1h+YKD1zLGQsw4Ay+z3TCjF6MqQiCLVEd6ArTa1Ma7YoFvd7jYJFjZh3neEhIFfxtl2bHwLORVCWfQ==",
+      "path": "fontawesome/4.6.3",
+      "hashPath": "fontawesome.4.6.3.nupkg.sha512"
+    },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
       "type": "package",
       "serviceable": true,
@@ -2560,6 +2590,20 @@
       "sha512": "sha512-B5CNTMTdzVj/xMpazYcczFk3aUg/qduSfKAfUCH0gJ54NETETHaJBPy2GV6VlIeIw4UZqzXV3DroUkuHP561zg==",
       "path": "microsoft.extensions.primitives/3.1.22",
       "hashPath": "microsoft.extensions.primitives.3.1.22.nupkg.sha512"
+    },
+    "Node.js/0.10.28": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+dTpiaX8d5gyADdlR0Sz227IvMZ/QJWtyobqHDPqcJRykGdOfskW8yxde9WQRxY/Uyp+u5JN3KbBb2rkYdkT2Q==",
+      "path": "node.js/0.10.28",
+      "hashPath": "node.js.0.10.28.nupkg.sha512"
+    },
+    "NoGit/0.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5/qdluqNIPDSeF7gQ4Ab9xpFiyQrvfBtm/eGT5mErTCaEIdMNFidVlxMWc4ShPO7JK2KngyF5bybD3gxFCi/5A==",
+      "path": "nogit/0.0.8",
+      "hashPath": "nogit.0.0.8.nupkg.sha512"
     },
     "SQLitePCLRaw.bundle_e_sqlite3/2.0.4": {
       "type": "package",

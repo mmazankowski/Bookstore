@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "z4xXbhjlnw083Ww/p9wqV1dhtwLgOhfalGBT2Th9nYgIJ/2EytYZtXE9Nypej1cux4F0TP0LIXvgjthAJKj6mg==",
+  "dgSpecHash": "1QbF5RiapDuJJazr+q46ZhmdoKxOIgtvmA0GUki4TGKSOe2GciFDFKtXE2kHt8aAv24tfKTOIM6atmZotAtKgA==",
   "success": true,
   "projectFilePath": "/Users/matthewmazankowski/Desktop/Mission/Bookstore/Bookstore/Bookstore.csproj",
   "expectedPackageFiles": [
+    "/Users/matthewmazankowski/.nuget/packages/bower/1.3.11/bower.1.3.11.nupkg.sha512",
+    "/Users/matthewmazankowski/.nuget/packages/fontawesome/4.6.3/fontawesome.4.6.3.nupkg.sha512",
     "/Users/matthewmazankowski/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "/Users/matthewmazankowski/.nuget/packages/microsoft.bcl.hashcode/1.1.1/microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
     "/Users/matthewmazankowski/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
@@ -29,6 +31,8 @@
     "/Users/matthewmazankowski/.nuget/packages/microsoft.extensions.logging.abstractions/3.1.22/microsoft.extensions.logging.abstractions.3.1.22.nupkg.sha512",
     "/Users/matthewmazankowski/.nuget/packages/microsoft.extensions.options/3.1.22/microsoft.extensions.options.3.1.22.nupkg.sha512",
     "/Users/matthewmazankowski/.nuget/packages/microsoft.extensions.primitives/3.1.22/microsoft.extensions.primitives.3.1.22.nupkg.sha512",
+    "/Users/matthewmazankowski/.nuget/packages/node.js/0.10.28/node.js.0.10.28.nupkg.sha512",
+    "/Users/matthewmazankowski/.nuget/packages/nogit/0.0.8/nogit.0.0.8.nupkg.sha512",
     "/Users/matthewmazankowski/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.0.4/sqlitepclraw.bundle_e_sqlite3.2.0.4.nupkg.sha512",
     "/Users/matthewmazankowski/.nuget/packages/sqlitepclraw.core/2.0.4/sqlitepclraw.core.2.0.4.nupkg.sha512",
     "/Users/matthewmazankowski/.nuget/packages/sqlitepclraw.lib.e_sqlite3/2.0.4/sqlitepclraw.lib.e_sqlite3.2.0.4.nupkg.sha512",

@@ -26,8 +26,29 @@ using Bookstore.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "/Users/matthewmazankowski/Desktop/Mission/Bookstore/Bookstore/Views/_ViewImports.cshtml"
+using Bookstore.Models.ViewModels;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 4 "/Users/matthewmazankowski/Desktop/Mission/Bookstore/Bookstore/Views/_ViewImports.cshtml"
+using Bookstore.Infrastructure;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 5 "/Users/matthewmazankowski/Desktop/Mission/Bookstore/Bookstore/Views/_ViewImports.cshtml"
+using System.Globalization;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"4ecc4d2bcad30a6aee551879bc7e7094ebb4184d", @"/Views/Shared/Error.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"9d3b0fbadf0458c4e3afe1c82c8c1e30d3d3c0dc", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"1b3deee62d7e04f51313c8a93b99214889f5ffb9", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared_Error : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<ErrorViewModel>
     {
         #pragma warning disable 1998

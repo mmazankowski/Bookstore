@@ -2,21 +2,21 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Bookstore.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Bookstore.Models;
 
 namespace Bookstore
 {
     public class Startup
     {
-
-        public IConfiguration Configuration { get; set;  }
+        public IConfiguration Configuration { get; set; }
 
         public Startup(IConfiguration temp)
         {
@@ -28,10 +28,24 @@ namespace Bookstore
         {
             services.AddControllersWithViews();
 
-            services.AddDbContext<BookstoreContext> (options =>
+            services.AddDbContext<BookstoreContext>(options =>
             {
                 options.UseSqlite(Configuration["ConnectionStrings:BookstoreDBConnection"]);
             });
+
+            services.AddScoped<IBookstoreRepository, EFBookstoreRepository>();
+
+            services.AddScoped<IOrderRepository, EFOrderRepository>();
+
+            services.AddRazorPages();
+
+            services.AddDistributedMemoryCache();
+
+            services.AddSession();
+
+            services.AddScoped<Cart>(x => SessionCart.GetCart(x));
+
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -48,16 +62,35 @@ namespace Bookstore
                 app.UseHsts();
             }
             app.UseHttpsRedirection();
-
             app.UseStaticFiles();
 
             app.UseRouting();
+
+            app.UseSession();
 
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapDefaultControllerRoute(); 
+                endpoints.MapControllerRoute(
+                    name: "categorypage",
+                    pattern: "{category}/Page{pageNum}",
+                    defaults: new { Controller = "Home", action = "Index" });
+
+                endpoints.MapControllerRoute(
+                    name: "Paging",
+                    pattern: "Page{pageNum}",
+                    defaults: new { Controller = "Home", action = "Index", pageNum = 1 });
+
+                endpoints.MapControllerRoute(
+                    name: "category",
+                    pattern: "{category}",
+                    defaults: new { Controller = "Home", action = "Index", pageNum = 1 });
+
+
+                endpoints.MapDefaultControllerRoute();
+
+                endpoints.MapRazorPages();
             });
         }
     }

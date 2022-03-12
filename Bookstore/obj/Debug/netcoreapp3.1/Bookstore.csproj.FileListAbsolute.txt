@@ -76,3 +76,14 @@
 /Users/matthewmazankowski/Desktop/Mission/Bookstore/Bookstore/bin/Debug/netcoreapp3.1/runtimes/win-arm64/native/e_sqlite3.dll
 /Users/matthewmazankowski/Desktop/Mission/Bookstore/Bookstore/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/e_sqlite3.dll
 /Users/matthewmazankowski/Desktop/Mission/Bookstore/Bookstore/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/e_sqlite3.dll
+/Users/matthewmazankowski/Desktop/Mission/Bookstore/Bookstore/bin/Debug/netcoreapp3.1/bower.json
+/Users/matthewmazankowski/Desktop/Mission/Bookstore/Bookstore/bin/Debug/netcoreapp3.1/libman.json
+/Users/matthewmazankowski/Desktop/Mission/Bookstore/Bookstore/obj/Debug/netcoreapp3.1/Razor/Pages/OrderConfirmation.cshtml.g.cs
+/Users/matthewmazankowski/Desktop/Mission/Bookstore/Bookstore/obj/Debug/netcoreapp3.1/Razor/Pages/Shop.cshtml.g.cs
+/Users/matthewmazankowski/Desktop/Mission/Bookstore/Bookstore/obj/Debug/netcoreapp3.1/Razor/Pages/_ViewImports.cshtml.g.cs
+/Users/matthewmazankowski/Desktop/Mission/Bookstore/Bookstore/obj/Debug/netcoreapp3.1/Razor/Pages/_ViewStart.cshtml.g.cs
+/Users/matthewmazankowski/Desktop/Mission/Bookstore/Bookstore/obj/Debug/netcoreapp3.1/Razor/Views/Shared/BookSummary.cshtml.g.cs
+/Users/matthewmazankowski/Desktop/Mission/Bookstore/Bookstore/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Components/CartSummary/Default.cshtml.g.cs
+/Users/matthewmazankowski/Desktop/Mission/Bookstore/Bookstore/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Components/Types/Default.cshtml.g.cs
+/Users/matthewmazankowski/Desktop/Mission/Bookstore/Bookstore/obj/Debug/netcoreapp3.1/Razor/Views/Order/Checkout.cshtml.g.cs
+/Users/matthewmazankowski/Desktop/Mission/Bookstore/Bookstore/obj/Debug/netcoreapp3.1/Razor/Pages/_ShopLayout.cshtml.g.cs
