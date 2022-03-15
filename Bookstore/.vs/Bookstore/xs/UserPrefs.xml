@@ -1,28 +1,30 @@
 ﻿<Properties StartupConfiguration="{071A27CC-5BFD-4922-9B2F-6C20BC8044E7}|Default">
   <MonoDevelop.Ide.ItemProperties.Bookstore PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Models/IdentitySeedData.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Pages/OrderConfirmation.cshtml">
     <Files>
-      <File FileName="Views/Account/Login.cshtml" Line="2" Column="23" />
-      <File FileName="Controllers/AccountController.cs" Line="31" Column="19" />
-      <File FileName="Pages/Admin/Index.cshtml" Line="7" Column="1" />
-      <File FileName="Models/IdentitySeedData.cs" Line="13" Column="61" />
+      <File FileName="Views/Account/Login.cshtml" Line="2" Column="5" />
+      <File FileName="Controllers/AccountController.cs" />
+      <File FileName="Pages/Admin/Index.cshtml" />
+      <File FileName="Models/IdentitySeedData.cs" />
+      <File FileName="Pages/OrderConfirmation.cshtml" Line="6" Column="33" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Bookstore" expanded="True">
             <Node name="Bookstore" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True">
-                <Node name="ViewModels" expanded="True" />
-                <Node name="IdentitySeedData.cs" selected="True" />
-              </Node>
               <Node name="Pages" expanded="True">
-                <Node name="Admin" expanded="True" />
+                <Node name="OrderConfirmation.cshtml" selected="True" />
               </Node>
               <Node name="Views" expanded="True">
                 <Node name="Account" expanded="True" />
-                <Node name="Shared" expanded="True" />
+                <Node name="Order" expanded="True" />
+                <Node name="Shared" expanded="True">
+                  <Node name="Components" expanded="True">
+                    <Node name="CartSummary" expanded="True" />
+                    <Node name="Types" expanded="True" />
+                  </Node>
+                </Node>
               </Node>
             </Node>
           </Node>
