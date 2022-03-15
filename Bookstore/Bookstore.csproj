@@ -33,6 +33,7 @@
     <None Remove="Bower" />
     <None Remove="Pages\Admin\" />
     <None Remove="Microsoft.AspNetCore.Identity.EntityFrameworkCore" />
+    <None Remove="Views\Account\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Components\" />
@@ -43,5 +44,6 @@
     <Folder Include="Views\Shared\Components\CartSummary\" />
     <Folder Include="Views\Shared\Components\Types\" />
     <Folder Include="Pages\Admin\" />
+    <Folder Include="Views\Account\" />
   </ItemGroup>
 </Project>

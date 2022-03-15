@@ -107,3 +107,8 @@
 /Users/matthewmazankowski/Desktop/Mission/Bookstore/Bookstore/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Details.razor.g.cs
 /Users/matthewmazankowski/Desktop/Mission/Bookstore/Bookstore/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Admin/Editor.razor.g.cs
 /Users/matthewmazankowski/Desktop/Mission/Bookstore/Bookstore/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Editor.razor.g.cs
+/Users/matthewmazankowski/Desktop/Mission/Bookstore/Bookstore/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Cryptography.Internal.dll
+/Users/matthewmazankowski/Desktop/Mission/Bookstore/Bookstore/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/Users/matthewmazankowski/Desktop/Mission/Bookstore/Bookstore/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Users/matthewmazankowski/Desktop/Mission/Bookstore/Bookstore/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Identity.Core.dll
+/Users/matthewmazankowski/Desktop/Mission/Bookstore/Bookstore/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Identity.Stores.dll

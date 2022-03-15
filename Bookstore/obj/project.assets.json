@@ -3563,7 +3563,7 @@
       "outputPath": "/Users/matthewmazankowski/Desktop/Mission/Bookstore/Bookstore/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/matthewmazankowski/.config/NuGet/NuGet.Config"
+        "/Users/matthewmazankowski/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
