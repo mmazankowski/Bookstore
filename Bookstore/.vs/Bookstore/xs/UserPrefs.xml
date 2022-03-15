@@ -5,14 +5,7 @@
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Bookstore" expanded="True">
-            <Node name="Bookstore" expanded="True">
-              <Node name="Models" expanded="True" />
-              <Node name="Pages" expanded="True">
-                <Node name="Admin" expanded="True">
-                  <Node name="Details.razor" selected="True" />
-                </Node>
-              </Node>
-            </Node>
+            <Node name="Bookstore" expanded="True" />
           </Node>
         </State>
       </Pad>
