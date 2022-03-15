@@ -25,7 +25,7 @@ namespace Bookstore.Controllers
         [HttpGet]
         public IActionResult Login(string returnUrl)
         {
-            return View(new LoginModel { ReturnUrl = returnUrl});
+            return View(new LoginModel { ReturnUrl = returnUrl });
         }
 
         [HttpPost]
@@ -48,6 +48,13 @@ namespace Bookstore.Controllers
 
             ModelState.AddModelError("", "Invalid name or password");
             return View(loginModel);
+        }
+
+        public async Task<RedirectResult> Logout (string returnUrl = "/")
+        {
+            await signInManager.SignOutAsync();
+
+            return Redirect(returnUrl); 
         }
     }
 }

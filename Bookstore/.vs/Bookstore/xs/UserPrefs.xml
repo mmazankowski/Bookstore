@@ -1,23 +1,24 @@
 ﻿<Properties StartupConfiguration="{071A27CC-5BFD-4922-9B2F-6C20BC8044E7}|Default">
   <MonoDevelop.Ide.ItemProperties.Bookstore PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/AccountController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Models/IdentitySeedData.cs">
     <Files>
-      <File FileName="Models/IdentitySeedData.cs" Line="13" Column="64" />
-      <File FileName="Startup.cs" Line="113" Column="52" />
-      <File FileName="Models/ViewModels/LoginModel.cs" Line="14" Column="46" />
-      <File FileName="Views/Account/Login.cshtml" Line="37" Column="56" />
-      <File FileName="Controllers/AccountController.cs" Line="16" Column="27" />
+      <File FileName="Views/Account/Login.cshtml" Line="2" Column="23" />
+      <File FileName="Controllers/AccountController.cs" Line="31" Column="19" />
+      <File FileName="Pages/Admin/Index.cshtml" Line="7" Column="1" />
+      <File FileName="Models/IdentitySeedData.cs" Line="13" Column="61" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Bookstore" expanded="True">
             <Node name="Bookstore" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="AccountController.cs" selected="True" />
-              </Node>
+              <Node name="Controllers" expanded="True" />
               <Node name="Models" expanded="True">
                 <Node name="ViewModels" expanded="True" />
+                <Node name="IdentitySeedData.cs" selected="True" />
+              </Node>
+              <Node name="Pages" expanded="True">
+                <Node name="Admin" expanded="True" />
               </Node>
               <Node name="Views" expanded="True">
                 <Node name="Account" expanded="True" />
