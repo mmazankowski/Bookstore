@@ -73,11 +73,9 @@ namespace Bookstore
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
-            app.UseRouting();
-
             app.UseSession();
 
-            app.UseAuthorization();
+            app.UseRouting();
 
             app.UseAuthentication();
 
