@@ -1,11 +1,36 @@
 ﻿<Properties StartupConfiguration="{071A27CC-5BFD-4922-9B2F-6C20BC8044E7}|Default">
   <MonoDevelop.Ide.ItemProperties.Bookstore PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Startup.cs">
+    <Files>
+      <File FileName="Views/Account/Login.cshtml" Line="2" Column="5" />
+      <File FileName="Controllers/AccountController.cs" />
+      <File FileName="Pages/Admin/Index.cshtml" />
+      <File FileName="Models/IdentitySeedData.cs" />
+      <File FileName="Pages/OrderConfirmation.cshtml" />
+      <File FileName="Startup.cs" Line="78" Column="30" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Bookstore" expanded="True">
-            <Node name="Bookstore" expanded="True" />
+            <Node name="Bookstore" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="Admin" expanded="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Account" expanded="True" />
+                <Node name="Order" expanded="True" />
+                <Node name="Shared" expanded="True">
+                  <Node name="Components" expanded="True">
+                    <Node name="CartSummary" expanded="True" />
+                    <Node name="Types" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="Startup.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
