@@ -17,6 +17,7 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.22" />
     <PackageReference Include="FontAwesome" Version="4.6.3" />
     <PackageReference Include="Bower" Version="1.3.11" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.22" />
   </ItemGroup>
 
   <ItemGroup>
@@ -31,6 +32,8 @@
     <None Remove="FontAwesome" />
     <None Remove="Bower" />
     <None Remove="Pages\Admin\" />
+    <None Remove="Microsoft.AspNetCore.Identity.EntityFrameworkCore" />
+    <None Remove="Views\Account\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Components\" />
@@ -41,5 +44,6 @@
     <Folder Include="Views\Shared\Components\CartSummary\" />
     <Folder Include="Views\Shared\Components\Types\" />
     <Folder Include="Pages\Admin\" />
+    <Folder Include="Views\Account\" />
   </ItemGroup>
 </Project>
