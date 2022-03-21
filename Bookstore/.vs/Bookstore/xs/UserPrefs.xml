@@ -3,10 +3,10 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Startup.cs">
     <Files>
       <File FileName="Views/Account/Login.cshtml" Line="2" Column="5" />
-      <File FileName="Controllers/AccountController.cs" Line="44" Column="69" />
-      <File FileName="Pages/Admin/Index.cshtml" Line="7" Column="1" />
-      <File FileName="Models/IdentitySeedData.cs" Line="13" Column="61" />
-      <File FileName="Pages/OrderConfirmation.cshtml" Line="6" Column="44" />
+      <File FileName="Controllers/AccountController.cs" />
+      <File FileName="Pages/Admin/Index.cshtml" />
+      <File FileName="Models/IdentitySeedData.cs" />
+      <File FileName="Pages/OrderConfirmation.cshtml" />
       <File FileName="Startup.cs" Line="78" Column="30" />
     </Files>
     <Pads>
